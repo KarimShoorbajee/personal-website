@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	grid-auto-rows: 50vh;
+}
+
+p {
+	margin: 0;
+}
+
+body div {
+	padding: 2em;
+	transition: all .5s ease-in-out;
+}
+
+.main-quad-text {
+	font-family: 'Volkhov', serif;
+	color: white;
+	font-size: 40px;
+	border-bottom: 5px solid transparent;
+	display: inline;
+	transition: border-bottom .5s ease-in-out;
+}
+/*
+body div:hover > p{
+	border-bottom-color: white;
+}
+*/
+body div:hover {
+	box-shadow: inset 0 0 0 white;
+}
+
+.quadrant-1 {
+	background-color: #DE369D;
+}
+.quadrant-2 {
+	background-color: #437C90;
+}
+.quadrant-3 {
+	background-color: #1B998B;
+}
+.quadrant-4 {
+	background-color: #FF326C;
+}
